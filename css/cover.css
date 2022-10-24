@@ -150,8 +150,11 @@ body {
     margin-left: 3em;
     margin-right: 3em;
   }
+
   nav li a {
     transition: 0.5s color ease-in-out;
+    text-decoration: none;
+    color:white;
   }
   
   .page-title {
