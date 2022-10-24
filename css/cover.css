@@ -58,6 +58,10 @@ body {
     fill: currentColor;
   }
 
+  .ralf {
+    text-align: left;
+  }
+
 
   .hoverable {
     display: inline-block;
@@ -132,7 +136,6 @@ body {
     .navbar {
       text-align: center !important;
       float: none;
-      display: inline-block;
     }
   }
   body {
