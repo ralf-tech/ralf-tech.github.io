@@ -2,6 +2,9 @@
  * Globals
  */
 
+.index-margin {
+  margin: 10rem 0;
+}
 
 /* Custom default button */
 .btn-secondary,
@@ -12,15 +15,41 @@
   background-color: #ffc107;
 }
 
-
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
 /*
  * Base structure
  */
+.titleFont {
+  font-family: 'Manrope';
+}
 
+.contentFont {
+  font-family: 'Open Sans';
+}
+
+.index-content {
+  padding-left: 20%;
+  padding-right: 20%;
+}
 
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.brand {
+  color:white;
+  font-size: 25px;
+}
+
+.index-title {
+  font-size: 70px;
+}
+
+.featurette-divider-start {
+  margin: 15rem 0;
 }
 
 .text-white {
@@ -32,7 +61,7 @@ body {
 }
 
 .cover-container {
-  max-width: 60em;
+  max-width: 70em;
 }
 
 .featurette-divider {
@@ -164,9 +193,10 @@ body {
     color:#ffc107;
   }
   
-  nav {
+  nav ul {
     background: none !important;
     text-transform: uppercase;
+    font-weight: bold;
   }
   nav li {
     margin-left: 3em;
