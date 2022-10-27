@@ -7,6 +7,7 @@
 .cover-margin {
   margin-top: 12%;
   margin-bottom: 12%;
+  margin:12%;
 }
 
 /* Custom default button */
@@ -25,7 +26,7 @@
  * Base structure
  */
 .titleFont {
-  font-family: 'Manrope';
+  font-family: 'cubano';
 }
 
 .contentFont {
@@ -45,12 +46,14 @@
 
 .index-title {
   font-size: 70px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  width:100%;
 }
 
 .learn-more-title {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-size: 70px;
 }
 
 .text-white {
