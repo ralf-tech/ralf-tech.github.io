@@ -1,6 +1,13 @@
 /*
  * Globals
  */
+ @font-face {
+  font-family: 'cubanoregular';
+  src: url('../fonts/cubano-webfont.woff2') format('woff2'),
+       url('../fonts/cubano-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -26,7 +33,7 @@
  * Base structure
  */
 .titleFont {
-  font-family: 'cubano';
+  font-family: 'cubanoregular';
 }
 
 .contentFont {
