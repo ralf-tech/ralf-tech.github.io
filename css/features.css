@@ -18,6 +18,7 @@
     margin-bottom: 1.5rem;
     text-align: center;
   }
+
   /* rtl:begin:ignore */
   .marketing .col-lg-4 p {
     margin-right: .75rem;
@@ -192,6 +193,27 @@
 		margin-left: 0.375rem;
 	}
 	/* end of footer */
+
+/******************************/
+/*     Back To Top Button     */
+/******************************/
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 12px;
+	bottom: 12px;
+	display: none;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
+	background-size: 18px 18px;
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color: #ffc107;
+}
 
 
 
