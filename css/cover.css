@@ -194,7 +194,7 @@
 
   body {
     font-weight: 600;
-    text-align: center !important;
+    /* text-align: center !important; */
     /* color:#ffc107; */
   }
   
